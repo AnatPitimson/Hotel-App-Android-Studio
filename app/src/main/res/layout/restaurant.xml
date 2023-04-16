@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/frame"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/ResLogo"
+        android:src="@drawable/restaurant_logo">
+    </ImageView>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/The_Restaurant_Story"
+         android:text="@string/RestaurantStory"
+         android:layout_margin="20dp"
+         android:gravity="center"
+         android:fontFamily="@font/pretty_font"
+         android:textSize="17sp">
+     </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Number_of_guests"
+        android:gravity="center"
+        android:padding="10dp"
+        android:inputType="number"
+        android:textSize="17sp"
+        android:id="@+id/How_Many_Pepole"
+        android:layout_margin="10dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/OrderPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:fontFamily="@font/pretty_font"
+        android:layout_margin="20dp"
+        android:text="@string/OrderRoom"
+        android:background="@drawable/btn_shape"
+        android:textColor="@color/color_selector">
+    </Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnsLayout"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

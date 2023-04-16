@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="EnterName">אנא הכנס את שמך הפרטי</string>
+    <string name="Enter">כניסה</string>
+    <string name="HelloText">שלום</string>
+    <string name="Welcome">וברוכים הבאים למלון היוקרתי בעולם</string>
+    <string name="choose_room">אנא בחר סוג חדר</string>
+    <string name="RoomWithSeaView">חדר עם נוף לים</string>
+    <string name="StandardRoom">חדר סטדנרט</string>
+    <string name="LuxurySuite">סוויטה יוקרתית</string>
+    <string name="RoomWithPrivatePool">חדר עם בריכה פרטית</string>
+    <string name="Toast_Enter_Name">אנחנו רוצים להכיר אותך</string>
+    <string name="Toast_Name_To_Long">אתה בטוח ששמך כל כך ארוך?</string>
+    <string name="RestaurantInfo">אתם יותר ממוזמנים לשריין מקום במסעדת המלון שלנו PitiLand המסעדה היחידה בישראל עם שלושה כוכבי מישלן</string>
+    <string name="RestaurantBtn">לחץ להזמנת מקום במסעדה</string>
+    <string name="Number_of_guests">מספר אורחים</string>
+    <string name="Separate_beds">מיטות נפרדות</string>
+    <string name="Double_Bed">מיטה זוגית</string>
+    <string name="OrderRoom">הזמן</string>
+    <string name="ChooseBedType">אנא בחר סוג מיטה</string>
+    <string name="YourOrderIs">"ההזמנה שלך היא "</string>
+    <string name="For">" ל   "</string>
+    <string name="Guests">" אורחים מקווים שתהנו "</string>
+    <string name="RestaurantStory">ברוכה הבאה לPitiLand המקום שבו הטעם פוגש את הנשמה, איפה שחלום הופך למציאות, אתה לא תתחרט שתבחר במקום זה, לא אתה, ולא בלוטות הטעם שלך. לשם התחלת מסע קסום זה אנא שריין מקום לך ולקרובייך ברי המזל.</string>
+    <string name="ContactUs">צור קשר</string>
+    <string name="LuckyGuestNumber">לקוח בר מזל מספר</string>
+</resources>

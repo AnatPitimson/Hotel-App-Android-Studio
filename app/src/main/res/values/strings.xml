@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="EnterName">Please enter your first name</string>
+    <string name="Enter">Enter</string>
+    <string name="HelloText">Hello</string>
+    <string name="Welcome">and welcome to the most luxury hotel in the world</string>
+    <string name="choose_room">Please choose room type</string>
+    <string name="RoomWithSeaView">Room With Sea View</string>
+    <string name="StandardRoom">Standard Room</string>
+    <string name="LuxurySuite">Luxury Suite</string>
+    <string name="RoomWithPrivatePool">Room With Private Pool</string>
+    <string name="Toast_Enter_Name">We want to get to know you</string>
+    <string name="Toast_Name_To_Long">Oh are you sure your name is so long?</string>
+    <string name="RestaurantInfo">You are more than welcome to reserve a place in our hotel restaurant PitiLand, the only restaurant in Israel with three Michelin stars</string>
+    <string name="RestaurantBtn">Press to reserve a place in the restaurant</string>
+    <string name="Number_of_guests">Number of guests</string>
+
+    
+    <string-array name="num_of_guests_standard">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="Separate_beds">Separate beds</string>
+    <string name="Double_Bed">Double bed</string>
+    <string name="OrderRoom">Order</string>
+    <string name="ChooseBedType">Please choose bed type</string>
+    <string name="YourOrderIs">"Your order is "</string>
+    <string name="For">" for "</string>
+    <string name="Guests">" guest hope you enjoy"</string>
+
+    <string-array name="num_of_guests_Sea_View">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="num_of_guests_Private_Pool">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="num_of_guests_Luxury_Suite">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="RestaurantStory">Welcome to PitiLand the place where taste meets soul, Where a dream becomes a reality, you will not regret choosing this place, neither you, nor your taste buds. To begin this magical journey please reserve a place for you and your lucky relatives.</string>
+    <string name="ContactUs">"Contact Us "</string>
+    <string name="LuckyGuestNumber">Lucky guest number</string>
+
+
+</resources>

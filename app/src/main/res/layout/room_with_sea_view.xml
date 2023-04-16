@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/WelcomeSeaView"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/RoomWithSeaView"
+        android:fontFamily="@font/pretty_font"
+        android:padding="20dp"
+        android:textSize="40sp">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/picturesSea"
+            android:layout_width="340dp"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:padding="10dp"
+            android:src="@drawable/sea1">
+        </ImageView>
+
+        <ImageButton
+            android:id="@+id/right_btnSea"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_toRightOf="@id/picturesSea"
+            android:src="@drawable/right">
+        </ImageButton>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@id/picturesSea"
+            android:layout_centerInParent="true"
+            android:id="@+id/leftBtnSea"
+            android:src="@drawable/left"
+            android:background="@null"
+            android:scaleType="fitXY">
+        </ImageButton>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/pretty_font"
+            android:textSize="20sp"
+            android:id="@+id/AmountOfPeople"
+            android:text="@string/Number_of_guests"
+            android:gravity="center"
+            android:layout_margin="10dp">
+        </TextView>
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/spinner_num_of_guests"
+            android:outlineSpotShadowColor="@color/Black"
+            android:outlineAmbientShadowColor="@color/Black"
+            android:layoutDirection="ltr"
+            >
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/radioGroup">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Separate_beds"
+                android:fontFamily="@font/pretty_font"
+                android:id="@+id/radio_Separate_beds"
+                android:onClick="checkButton">
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pretty_font"
+                android:text="@string/Double_Bed"
+                android:id="@+id/radio_Double_Bed"
+                android:onClick="checkButton">
+            </RadioButton>
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:visibility="visible"
+            android:layout_height="wrap_content"
+            android:text="@string/OrderRoom"
+            android:textAllCaps="false"
+            android:background="@drawable/btn_shape"
+            android:textColor="@color/color_selector"
+            android:id="@+id/orderBtn">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_selectedSea"
+            android:gravity="center">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <ImageButton
+        android:layout_alignParentBottom="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@null"
+        android:src="@drawable/back_btn"
+        android:id="@+id/back_btn"
+        android:layout_margin="10dp">
+    </ImageButton>
+
+</LinearLayout>

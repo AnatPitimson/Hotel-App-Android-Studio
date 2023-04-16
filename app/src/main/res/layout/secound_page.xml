@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/HelloOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:textSize="15sp"
+        android:fontFamily="@font/pretty_font"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/choose_Room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/pretty_font"
+        android:gravity="center"
+        android:textSize="21sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/pretty_font"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:fontFamily="@font/pretty_font"
+            android:layout_margin="10dp"
+            android:text="@string/RoomWithSeaView"
+            android:id="@+id/RoomWithSeaView"
+            android:background="@drawable/btn_shape"
+            android:textColor="@color/color_selector">
+        </Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:id="@+id/StandardRoom"
+            android:textAllCaps="false"
+            android:fontFamily="@font/pretty_font"
+            android:text="@string/StandardRoom"
+            android:background="@drawable/btn_shape"
+            android:textColor="@color/color_selector">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:layout_margin="20dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/pretty_font"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:id="@+id/LuxurySuite"
+            android:text="@string/LuxurySuite"
+            android:background="@drawable/btn_shape"
+            android:textColor="@color/color_selector">
+        </Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+
+            android:layout_margin="10dp"
+            android:fontFamily="@font/pretty_font"
+            android:id="@+id/RoomWithPrivatePool"
+            android:text="@string/RoomWithPrivatePool"
+            android:background="@drawable/btn_shape"
+            android:textColor="@color/color_selector">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/Restaurant_Info"
+            android:text="@string/RestaurantInfo"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@color/Black"
+            android:fontFamily="@font/pretty_font"
+            android:textSize="20dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Restaurant_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="20dp"
+        android:text="@string/RestaurantBtn"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:background="@drawable/btn_shape"
+        android:fontFamily="@font/pretty_font"
+        android:textColor="@color/color_selector">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_margin="20dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/back_btn"
+            android:id="@+id/back_btn"
+            android:background="@null"
+            android:layout_margin="10dp">
+        </ImageButton>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_weight="2"
+            android:layout_height="100dp"
+            android:id="@+id/stam">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/ContactBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_shape"
+            android:fontFamily="@font/pretty_font"
+            android:text="@string/ContactUs"
+            android:textAllCaps="false"
+            android:textColor="@color/color_selector"
+            android:textSize="10sp"></Button>
+
+
+    </LinearLayout>
+</LinearLayout>
